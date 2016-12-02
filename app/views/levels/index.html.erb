@@ -1,0 +1,62 @@
+
+<div class="row text-center">
+    <h1 class="page-header">關卡管理</h1>
+</div>
+
+<div class="row" style="padding-bottom: 2px">
+    <a href="/levels/new" class="btn btn-success">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+        新增關卡
+    </a>
+</div>
+
+<!-- /.row -->
+<div class="row">
+    <table class="table">
+        <thead>
+            <th class="bg-primary">
+                #
+            </th>
+            <th class="bg-primary">
+                名稱
+            </th>
+            <th class="bg-primary">
+                描述
+            </th>
+            <th class="bg-primary">
+                圖片
+            </th>
+            <th class="bg-primary">
+                功能
+            </th>
+        </thead>
+        <tbody>
+            <% i = 0 %>
+            <% @levels.each do |level| %>
+            <tr>
+                <td>
+                    <%= i += 1 %>
+                </td>
+                <td>
+                    <%= level.name %>
+                </td>
+                <td>
+                    <%= level.description %>
+                </td>
+                <td>
+                    <img src="<%= level.image_path %>" height="100px" alt="">
+                </td>
+                <td>
+                    <a class="btn btn-warning">
+                        <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                    </a>
+                    <a class="btn btn-danger" rel="nofollow" data-method="delete"
+                        href="/levels/<%= level.id %>">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </a>
+                </td>
+            </tr>
+            <% end %>
+        </tbody>
+    </table>
+</div>
