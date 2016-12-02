@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
+group :production do
+  gem "pg"
+  gem "rails_12factor"
+end
 # mysql2
-gem 'mysql2', '~> 0.4.5'
+gem 'mysql2', '~> 0.4.5', group: :development
 # bootstrap
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
