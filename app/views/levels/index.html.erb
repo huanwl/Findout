@@ -4,7 +4,7 @@
 </div>
 
 <div class="row" style="padding-bottom: 2px">
-    <a href="/levels/new" class="btn btn-success">
+    <a href="/levels/new" class="btn btn-success btn-new">
         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
         新增關卡
     </a>
@@ -27,6 +27,12 @@
                 圖片
             </th>
             <th class="bg-primary">
+                選項
+            </th>
+            <th class="bg-primary">
+                提示
+            </th>
+            <th class="bg-primary">
                 功能
             </th>
         </thead>
@@ -45,6 +51,12 @@
                 </td>
                 <td>
                     <img src="<%= level.image_path %>" height="100px" alt="">
+                </td>
+                <td>
+                  <a href="/options">0 筆</a>
+                </td>
+                <td>
+                  <a href="/tips">0 筆</a>
                 </td>
                 <td>
                     <a class="btn btn-warning">

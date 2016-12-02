@@ -34,8 +34,10 @@
     </div>
     <br>
     <div class="row" align="center">
-        <%= f.submit "送出",
-        :class => "form-control btn-success",
-        :style => "max-width: 250px" %>
+         <%= f.submit "送出",
+         :class => "btn btn-success btn-create",
+         :style => "max-width: 200px" %>
+
+        <a class="btn btn-default btn-create" href="/levels">取消</a>
     </div>
 <% end %>
