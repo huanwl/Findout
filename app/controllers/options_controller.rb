@@ -32,6 +32,12 @@ class OptionsController < ApplicationController
 
   def destroy
     @option = Option.find params[:id]
+
+    if @option.image_path != nil and @option.image_path != ""
+      filepath = "#{Rails.root}/public" + @option.image_path
+      File.delete(filepath)
+    end
+
     @option.destroy
     redirect_to action: "index", id: @option.level_id
   end
