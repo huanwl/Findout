@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161203023653) do
+ActiveRecord::Schema.define(version: 20161203052933) do
 
   create_table "levels", force: :cascade do |t|
     t.string   "name",        limit: 255
@@ -25,9 +25,9 @@ ActiveRecord::Schema.define(version: 20161203023653) do
   create_table "options", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.string   "image_path", limit: 255
-    t.boolean  "is_answer"
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.boolean  "is_answer",              default: false
+    t.datetime "created_at",                             null: false
+    t.datetime "updated_at",                             null: false
     t.integer  "level_id",   limit: 4
   end
 

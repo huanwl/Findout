@@ -3,7 +3,13 @@ Rails.application.routes.draw do
   get 'home' => 'home#index'
   get 'home/new' => 'home#new'
 
-  resources :levels
+  get 'options/:id' => 'options#index'
+  get 'options/new/:id' => 'options#new'
+
+  get 'tips/:id' => 'tips#index'
+  get 'tips/new/:id' => 'tips#new'
+
+  resources :levels, :options, :tips
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

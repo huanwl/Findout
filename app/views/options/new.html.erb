@@ -1,0 +1,48 @@
+
+<div class="row text-center">
+    <h1 class="page-header"><%= @level.name %> - 新增選項</h1>
+</div>
+
+<%= form_for @option do |f| %>
+    <%= f.hidden_field :level_id, :value => @level.id %>
+    <div class="row">
+        <table class="table table-bordered form-table">
+            <tr>
+                <td class="bg-info">
+                    選項名稱
+                </td>
+                <td>
+                    <%= f.text_field :name, :class => "form-control" %>
+                </td>
+            </tr>
+            <tr>
+                <td class="bg-info">
+                    選項圖片
+                </td>
+                <td>
+                    <%= f.file_field :image_path %>
+                </td>
+            </tr>
+            <tr>
+              <td class="bg-info">
+                  是否答案
+              </td>
+              <td>
+                <%= f.radio_button :is_answer, true, :value => false %>
+                <%= f.label :is_answer_false, "YES" %>
+                &nbsp;&nbsp;&nbsp;
+                <%= f.radio_button :is_answer, false, :value => true %>
+                <%= f.label :is_answer_true, "NO"%>
+              </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="row" align="center">
+         <%= f.submit "送出",
+         :class => "btn btn-success btn-create",
+         :style => "max-width: 200px" %>
+
+        <a class="btn btn-default btn-create" href="/options/<%= @level.id %>">取消</a>
+    </div>
+<% end %>

@@ -1,4 +1,4 @@
 class Level < ActiveRecord::Base
-  has_many :opion
-  has_many :tip
+  has_many :options
+  has_many :tips
 end
