@@ -12,7 +12,7 @@
     <link href="/thumbnail-gallery/css/bootstrap.css" rel="stylesheet">
     <link href="/thumbnail-gallery/css/thumbnail-gallery.css" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all' %>
-    
+
     <%= javascript_include_tag 'application' %>
     <script src="/thumbnail-gallery/js/bootstrap.js"></script>
 
@@ -30,7 +30,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Findout 翻倒</a>
+
+                <a class="navbar-brand" href="/" style="float: none">
+                  <img src="/upload/logo.png" alt="" style="width: 54px">
+                  Findout 翻倒
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,7 +62,7 @@
       <footer>
           <div class="row">
               <div class="col-lg-12 text-center">
-                  <p>Copyright &copy; Company 2013</p>
+                  <p>Copyright &copy; Findout Team 2016</p>
               </div>
           </div>
       </footer>

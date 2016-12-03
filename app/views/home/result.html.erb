@@ -15,7 +15,9 @@
 
     <% if @is_pass == "true" %>
       <div class="col-md-12 text-center">
-        <a class="btn btn-primary btn-lg result-btn">到下一題</a>
+        <a class="btn btn-default btn-lg result-btn"
+           href="/">回首頁</a>
+        <a class="btn btn-primary btn-lg result-btn">下一關</a>
       </div>
     <% else %>
 
@@ -26,6 +28,8 @@
       </div>
 
       <div class="col-md-12 text-center">
+        <a class="btn btn-default btn-lg result-btn"
+           href="/">回首頁</a>
         <a class="btn btn-primary btn-lg result-btn"
            href="/home/new/<%= @level.id %>?no=<%= @no %>">重新作答</a>
       </div>
