@@ -10,3 +10,26 @@
     <h2><%= get_result_msg(@is_pass) %></h2>
   </div>
 </div>
+
+<div class="row" align="center">
+
+    <% if @is_pass == "true" %>
+      <div class="col-md-12 text-center">
+        <a class="btn btn-primary btn-lg result-btn">到下一題</a>
+      </div>
+    <% else %>
+
+      <div class="alert alert-danger" role="alert" style="max-width: 600px">
+        <strong style="font-size: 14pt">
+          <%= get_tip(@level.id) %>
+        </strong>
+      </div>
+
+      <div class="col-md-12 text-center">
+        <a class="btn btn-primary btn-lg result-btn"
+           href="/home/new/<%= @level.id %>?no=<%= @no %>">重新作答</a>
+      </div>
+
+    <% end %>
+
+</div>
