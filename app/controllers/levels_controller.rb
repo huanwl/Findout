@@ -15,7 +15,7 @@ class LevelsController < ApplicationController
 
   def create
     @level = Level.new(params.require(:level)
-                             .permit(:name, :description, :image_path))
+                             .permit(:name, :description, :image_path, :degree))
 
     image = params[:level][:image_path]
     if image != nil

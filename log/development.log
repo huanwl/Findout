@@ -14856,3 +14856,1351 @@ Processing by OptionsController#index as HTML
   [1m[36mOption Load (0.3ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25[0m
   Rendered options/index.html.erb within layouts/application (1.5ms)
 Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:28:26 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.9ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  Rendered levels/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 59ms (Views: 52.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:28:26 +0800
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:29:05 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  Rendered levels/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:29:05 +0800
+
+
+Started GET "/levels/new" for ::1 at 2016-12-03 20:29:09 +0800
+Processing by LevelsController#new as HTML
+  Rendered levels/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:29:11 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  Rendered levels/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 26ms (Views: 24.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:29:24 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  Rendered levels/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 40ms (Views: 37.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:29:24 +0800
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:29:35 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.7ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (1.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  Rendered levels/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 42ms (Views: 36.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:29:35 +0800
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:33:54 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  Rendered levels/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:33:55 +0800
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:33:59 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  Rendered levels/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 42ms (Views: 39.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:33:59 +0800
+
+
+Started GET "/levels/new" for ::1 at 2016-12-03 20:34:00 +0800
+Processing by LevelsController#new as HTML
+  Rendered levels/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 27ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/thumbnail-gallery/css/bootstrap.css.map" for ::1 at 2016-12-03 20:34:16 +0800
+
+ActionController::RoutingError (No route matches [GET] "/thumbnail-gallery/css/bootstrap.css.map"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gn01964422/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/gn01964422/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/gn01964422/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (102.1ms)
+
+
+Started GET "/levels/new" for ::1 at 2016-12-03 20:35:00 +0800
+Processing by LevelsController#new as HTML
+  Rendered levels/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:35:00 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:35:01 +0800
+
+
+Started GET "/thumbnail-gallery/css/bootstrap.css.map" for ::1 at 2016-12-03 20:35:01 +0800
+
+ActionController::RoutingError (No route matches [GET] "/thumbnail-gallery/css/bootstrap.css.map"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gn01964422/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/gn01964422/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/gn01964422/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.0ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.2ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (114.8ms)
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:35:49 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  Rendered levels/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 54ms (Views: 39.7ms | ActiveRecord: 10.2ms)
+
+
+Started GET "/levels/new" for ::1 at 2016-12-03 20:35:51 +0800
+Processing by LevelsController#new as HTML
+  Rendered levels/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/levels" for ::1 at 2016-12-03 20:35:59 +0800
+Processing by LevelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MXyaNHKe4WXUg/SDe5gQ83Y6z+6EDDqzMBuB4/hKNZ0k8viZpzrKMkb0oUHMFMaxWlEm6XZZvlMIUL4elGfsQg==", "level"=>{"name"=>"zxc", "description"=>"zxczxc", "degree"=>"mid"}, "commit"=>"送出"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO `levels` (`name`, `description`, `degree`, `created_at`, `updated_at`) VALUES ('zxc', 'zxczxc', 1, '2016-12-03 12:35:59', '2016-12-03 12:35:59')[0m
+  [1m[35m (6.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/levels
+Completed 302 Found in 17ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:35:59 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 27
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 27[0m
+  Rendered levels/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 25ms (Views: 22.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/levels/new" for ::1 at 2016-12-03 20:36:01 +0800
+Processing by LevelsController#new as HTML
+  Rendered levels/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 34ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/levels" for ::1 at 2016-12-03 20:36:03 +0800
+Processing by LevelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vI07in+VKEsFx3pKuU7ueNkJwYt6CQm25PvJhdPf5jCpA1knqjEDHJewL4gOwjg69WIojIhcjVbcsPZ4v/I/7w==", "level"=>{"name"=>"", "description"=>"", "degree"=>"high"}, "commit"=>"送出"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `levels` (`name`, `description`, `degree`, `created_at`, `updated_at`) VALUES ('', '', 2, '2016-12-03 12:36:03', '2016-12-03 12:36:03')[0m
+  [1m[35m (1.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/levels
+Completed 302 Found in 11ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:36:03 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.8ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 27
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 27[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 28
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 28[0m
+  Rendered levels/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 37ms (Views: 32.1ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/levels/new" for ::1 at 2016-12-03 20:36:05 +0800
+Processing by LevelsController#new as HTML
+  Rendered levels/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/levels" for ::1 at 2016-12-03 20:36:07 +0800
+Processing by LevelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4PHoZWB7lEo++A/FtThQ0gJ9z0sgTOU/Go+e2UWSStH1f4rItd+/HayPWgcCtIaQLhYmTNIZYd8ixKEkKb+TDg==", "level"=>{"name"=>"", "description"=>"", "degree"=>"low"}, "commit"=>"送出"}
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `levels` (`name`, `description`, `degree`, `created_at`, `updated_at`) VALUES ('', '', 0, '2016-12-03 12:36:07', '2016-12-03 12:36:07')[0m
+  [1m[35m (6.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/levels
+Completed 302 Found in 15ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:36:07 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 27
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 27[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 28
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 28[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 29
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 29[0m
+  Rendered levels/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 27ms (Views: 23.8ms | ActiveRecord: 2.5ms)
+
+
+Started DELETE "/levels/29" for ::1 at 2016-12-03 20:36:11 +0800
+Processing by LevelsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wDBjdYJSnIj0pdePdeWdDVSk0Sh+GCZK+ilNqKuxMTHVvgHYV/a332bSgk3CaUtPeM84L4xNoqrCYnJVx5zo7g==", "id"=>"29"}
+  [1m[35mLevel Load (0.3ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 29 LIMIT 1
+  [1m[36mOption Load (0.3ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 29[0m
+  [1m[35mTip Load (0.2ms)[0m  SELECT `tips`.* FROM `tips` WHERE `tips`.`level_id` = 29
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `levels` WHERE `levels`.`id` = 29
+  [1m[36m (6.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/levels
+Completed 302 Found in 13ms (ActiveRecord: 7.1ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:36:11 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.8ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 27[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 27
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 28[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 28
+  Rendered levels/index.html.erb within layouts/application (22.5ms)
+Completed 200 OK in 42ms (Views: 36.1ms | ActiveRecord: 5.0ms)
+
+
+Started DELETE "/levels/28" for ::1 at 2016-12-03 20:36:12 +0800
+Processing by LevelsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4b+ICO2sm82A11uuDjFykPJepMs1JN2hm3JwFt/MD2X0MeqlOAiwmhKgDmy5vaTS3jVNzMdxWUGjOU/rs+HWug==", "id"=>"28"}
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 28 LIMIT 1[0m
+  [1m[35mOption Load (0.3ms)[0m  SELECT `options`.* FROM `options` WHERE `options`.`level_id` = 28
+  [1m[36mTip Load (0.2ms)[0m  [1mSELECT `tips`.* FROM `tips` WHERE `tips`.`level_id` = 28[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM `levels` WHERE `levels`.`id` = 28[0m
+  [1m[35m (8.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/levels
+Completed 302 Found in 14ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:36:12 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 27
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 27[0m
+  Rendered levels/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 1.5ms)
+
+
+Started DELETE "/levels/27" for ::1 at 2016-12-03 20:36:13 +0800
+Processing by LevelsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"h0ApJDs4kPvoE0d+Ywx+Zs4X0VGhft6N77/hCUzZt5qSzkuJ7py7rHpkErzUgKgk4nw4VlMrWm3X9N70IPRuRQ==", "id"=>"27"}
+  [1m[35mLevel Load (0.3ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 27 LIMIT 1
+  [1m[36mOption Load (0.3ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 27[0m
+  [1m[35mTip Load (0.2ms)[0m  SELECT `tips`.* FROM `tips` WHERE `tips`.`level_id` = 27
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM `levels` WHERE `levels`.`id` = 27
+  [1m[36m (6.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/levels
+Completed 302 Found in 12ms (ActiveRecord: 7.2ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:36:13 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.5ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  Rendered levels/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 26ms (Views: 20.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:38:43 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/gn01964422/GitHub/Findout/app/views/home/index.html.erb:13: syntax error, unexpected ':', expecting ')'
+     @levels.where(:degree :low).each do |level| 
+                            ^):
+  app/views/home/index.html.erb:13: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.4ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.3ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.4ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:40:28 +0800
+
+SyntaxError (/Users/gn01964422/GitHub/Findout/app/controllers/home_controller.rb:3: syntax error, unexpected ':', expecting ')'
+    @low_levels = Level.where(:degree :low)
+                                       ^
+/Users/gn01964422/GitHub/Findout/app/controllers/home_controller.rb:4: syntax error, unexpected ':', expecting ')'
+    @mid_levels = Level.where(:degree :mid)
+                                       ^
+/Users/gn01964422/GitHub/Findout/app/controllers/home_controller.rb:5: syntax error, unexpected ':', expecting ')'
+    @high_levels = Level.where(:degree :high)
+                                        ^
+/Users/gn01964422/GitHub/Findout/app/controllers/home_controller.rb:43: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/home_controller.rb:3: syntax error, unexpected ':', expecting ')'
+  app/controllers/home_controller.rb:4: syntax error, unexpected ':', expecting ')'
+  app/controllers/home_controller.rb:5: syntax error, unexpected ':', expecting ')'
+  app/controllers/home_controller.rb:43: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.2ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (28.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.9ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:43:06 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = NULL[0m
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = NULL
+  [1m[36mLevel Load (0.2ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = NULL[0m
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 41ms (Views: 36.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:43:06 +0800
+
+
+Started GET "/" for ::1 at 2016-12-03 20:43:29 +0800
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `degree' for #<HomeController:0x007ffa1b3c1690>):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.2ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (115.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:43:52 +0800
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `degree_low' for #<Class:0x007ffa19252cc0>
+Did you mean?  degrees):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.1ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.7ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (94.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:44:01 +0800
+Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `degree' for #<Class:0x007ffa14fd52a8>
+Did you mean?  degrees):
+  app/controllers/home_controller.rb:3:in `index'
+
+
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.9ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.6ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gn01964422/.rvm/gems/ruby-2.3.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (98.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:44:17 +0800
+Processing by HomeController#index as HTML
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = NULL
+  [1m[36mLevel Load (0.2ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = NULL[0m
+  [1m[35mLevel Load (0.2ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = NULL
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 32ms (Views: 27.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:18 +0800
+
+
+Started GET "/" for ::1 at 2016-12-03 20:44:53 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0[0m
+  [1m[35mLevel Load (0.2ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1
+  [1m[36mLevel Load (0.2ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2[0m
+  Rendered home/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 63ms (Views: 58.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:44:53 +0800
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:44:56 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (1.1ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  Rendered levels/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 76ms (Views: 70.2ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:44:58 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0[0m
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1
+  [1m[36mLevel Load (1.3ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2[0m
+  Rendered home/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 38ms (Views: 35.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:45:38 +0800
+Processing by HomeController#index as HTML
+  [1m[35mLevel Load (0.4ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1[0m
+  [1m[35mLevel Load (0.7ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2
+  Rendered home/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:45:38 +0800
+
+
+Started GET "/" for ::1 at 2016-12-03 20:45:53 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0[0m
+  [1m[35mLevel Load (0.2ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1
+  [1m[36mLevel Load (0.2ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2[0m
+  Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:45:53 +0800
+
+
+Started GET "/home/new/26?no=2" for ::1 at 2016-12-03 20:45:54 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"2", "id"=>"26"}
+  [1m[35mLevel Load (0.4ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 26 LIMIT 1
+  [1m[36mOption Load (0.3ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 26[0m
+  Rendered home/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 34ms (Views: 29.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/home/new/25?no=1" for ::1 at 2016-12-03 20:45:57 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"1", "id"=>"25"}
+  [1m[35mLevel Load (0.4ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1
+  [1m[36mOption Load (0.4ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25[0m
+  Rendered home/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 41ms (Views: 36.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:45:58 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  Rendered levels/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 52ms (Views: 48.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/levels/new" for ::1 at 2016-12-03 20:46:00 +0800
+Processing by LevelsController#new as HTML
+  Rendered levels/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/levels" for ::1 at 2016-12-03 20:46:21 +0800
+Processing by LevelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VWeQy+iljrwU2iosj2wBu/fCkRAsxq+LkVas41uFsAZA6fJmPQGl64atf+444Nf526l4F96TK2upHZMeN6hp2Q==", "level"=>{"name"=>"家庭", "description"=>"家庭是暴力嗎？", "degree"=>"high"}, "commit"=>"送出"}
+  [1m[36m (0.9ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `levels` (`name`, `description`, `degree`, `created_at`, `updated_at`) VALUES ('家庭', '家庭是暴力嗎？', 2, '2016-12-03 12:46:21', '2016-12-03 12:46:21')
+  [1m[36m (12.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/levels
+Completed 302 Found in 23ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/levels" for ::1 at 2016-12-03 20:46:21 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 30[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 30
+  Rendered levels/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 35ms (Views: 31.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:46:23 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0[0m
+  [1m[35mLevel Load (1.3ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2[0m
+  Rendered home/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 48ms (Views: 43.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:46:54 +0800
+Processing by HomeController#index as HTML
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1[0m
+  [1m[35mLevel Load (0.2ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2
+  Rendered home/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:46:54 +0800
+
+
+Started GET "/" for ::1 at 2016-12-03 20:47:19 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.5ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0[0m
+  [1m[35mLevel Load (0.7ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1
+  [1m[36mLevel Load (0.6ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2[0m
+  Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 55ms (Views: 50.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/options.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/levels.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/tips.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/application.self-efa96da1a332d43476cfbcfd5db98104b2b484f64f22124c8e185172b8547b4f.css?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/home.self-dd22bfecfb51391ffefc5acfd4064b85ba6ddcae21da4887e456ff38cb62c930.css?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/levels.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/options.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/tips.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for ::1 at 2016-12-03 20:47:19 +0800
+
+
+Started GET "/home/new/30?no=3" for ::1 at 2016-12-03 20:47:28 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"3", "id"=>"30"}
+  [1m[35mLevel Load (0.3ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 30 LIMIT 1
+  [1m[36mOption Load (0.4ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 30[0m
+  Rendered home/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/home/create" for ::1 at 2016-12-03 20:47:31 +0800
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dxk24syFa5tNPE09c2XxnzfF2keDjAtRMB/n0eJdSllil1RPGSFAzN9LGP/E6SfdG64zQHHZj7EIVNgsjnCThg==", "level_id"=>"30", "no"=>"3"}
+Redirected to http://localhost:3000/home/result?is_pass=false&level_id=30&no=3
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/result?is_pass=false&level_id=30&no=3" for ::1 at 2016-12-03 20:47:31 +0800
+Processing by HomeController#result as HTML
+  Parameters: {"is_pass"=>"false", "level_id"=>"30", "no"=>"3"}
+  [1m[35mLevel Load (0.6ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 30 LIMIT 1
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 30 LIMIT 1[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 30
+  Rendered home/result.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 45ms (Views: 40.4ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/home/new/30?no=3" for ::1 at 2016-12-03 20:47:33 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"3", "id"=>"30"}
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 30 LIMIT 1[0m
+  [1m[35mOption Load (0.4ms)[0m  SELECT `options`.* FROM `options` WHERE `options`.`level_id` = 30
+  Rendered home/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 37ms (Views: 33.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:47:36 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.9ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0[0m
+  [1m[35mLevel Load (0.5ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1
+  [1m[36mLevel Load (0.2ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2[0m
+  Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/home/new/25?no=1" for ::1 at 2016-12-03 20:47:37 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"1", "id"=>"25"}
+  [1m[35mLevel Load (0.7ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1
+  [1m[36mOption Load (0.9ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25[0m
+  Rendered home/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 61ms (Views: 51.9ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/home/create" for ::1 at 2016-12-03 20:47:42 +0800
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x2zldNFTFIYBwJ7NH3eu5+PmsrN47IDHPCiPQNpAsSbS4ofZBPc/0ZO3yw+o+3ilz41btIq5BCcEY7C9tm1o+Q==", "level_id"=>"25", "no"=>"1", "options"=>["33"]}
+  [1m[35mOption Load (0.3ms)[0m  SELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25
+Redirected to http://localhost:3000/home/result?is_pass=false&level_id=25&no=1
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/home/result?is_pass=false&level_id=25&no=1" for ::1 at 2016-12-03 20:47:42 +0800
+Processing by HomeController#result as HTML
+  Parameters: {"is_pass"=>"false", "level_id"=>"25", "no"=>"1"}
+  [1m[36mLevel Load (0.5ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1[0m
+  [1m[35mLevel Load (0.5ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35mTip Load (0.4ms)[0m  SELECT `tips`.* FROM `tips` WHERE `tips`.`level_id` = 25
+  Rendered home/result.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 35ms (Views: 30.5ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/home/new/25?no=1" for ::1 at 2016-12-03 20:47:45 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"1", "id"=>"25"}
+  [1m[36mLevel Load (1.0ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1[0m
+  [1m[35mOption Load (0.8ms)[0m  SELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25
+  Rendered home/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 50ms (Views: 41.9ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/home/create" for ::1 at 2016-12-03 20:47:48 +0800
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTzMmXG17B6m/YXqJYT5CuIVj3nzItbVg0S26gudX0BEsq40pBHHSTSK0CiSCC9Izn5mfgF3UjW7D4kXZ7CGnw==", "level_id"=>"25", "no"=>"1", "options"=>["35"]}
+  [1m[36mOption Load (0.4ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25[0m
+Redirected to http://localhost:3000/home/result?is_pass=false&level_id=25&no=1
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/home/result?is_pass=false&level_id=25&no=1" for ::1 at 2016-12-03 20:47:48 +0800
+Processing by HomeController#result as HTML
+  Parameters: {"is_pass"=>"false", "level_id"=>"25", "no"=>"1"}
+  [1m[35mLevel Load (0.3ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36mTip Load (1.0ms)[0m  [1mSELECT `tips`.* FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  Rendered home/result.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/home/new/25?no=1" for ::1 at 2016-12-03 20:47:51 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"1", "id"=>"25"}
+  [1m[35mLevel Load (0.4ms)[0m  SELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1
+  [1m[36mOption Load (0.4ms)[0m  [1mSELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25[0m
+  Rendered home/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 30ms (Views: 26.3ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/home/create" for ::1 at 2016-12-03 20:47:56 +0800
+Processing by HomeController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8FRMfM21DeN+uIo8Uy5Yt0O2k3/cioIvygKCQ0zM29rl2i7RGBEmtOzP3/7koo71b916eC7fBs/ySb2+IOECBQ==", "level_id"=>"25", "no"=>"1", "options"=>["34", "35"]}
+  [1m[35mOption Load (0.5ms)[0m  SELECT `options`.* FROM `options` WHERE `options`.`level_id` = 25
+Redirected to http://localhost:3000/home/result?is_pass=true&level_id=25&no=1
+Completed 302 Found in 2ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/home/result?is_pass=true&level_id=25&no=1" for ::1 at 2016-12-03 20:47:56 +0800
+Processing by HomeController#result as HTML
+  Parameters: {"is_pass"=>"true", "level_id"=>"25", "no"=>"1"}
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1[0m
+  Rendered home/result.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:48:42 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 30[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 30
+  Rendered levels/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 38ms (Views: 34.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/tips/25" for ::1 at 2016-12-03 20:48:47 +0800
+Processing by TipsController#index as HTML
+  Parameters: {"id"=>"25"}
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 25 LIMIT 1[0m
+  [1m[35mTip Load (0.8ms)[0m  SELECT `tips`.* FROM `tips` WHERE `tips`.`level_id` = 25
+  Rendered tips/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 30ms (Views: 23.1ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:49:17 +0800
+Processing by LevelsController#index as HTML
+  [1m[36mLevel Load (0.3ms)[0m  [1mSELECT `levels`.* FROM `levels`[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 30
+  [1m[36m (1.6ms)[0m  [1mSELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 30[0m
+  Rendered levels/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:49:19 +0800
+Processing by HomeController#index as HTML
+  [1m[35mLevel Load (0.4ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0
+  [1m[36mLevel Load (0.4ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1[0m
+  [1m[35mLevel Load (0.3ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/home/new/30?no=3" for ::1 at 2016-12-03 20:49:25 +0800
+Processing by HomeController#new as HTML
+  Parameters: {"no"=>"3", "id"=>"30"}
+  [1m[36mLevel Load (0.9ms)[0m  [1mSELECT  `levels`.* FROM `levels` WHERE `levels`.`id` = 30 LIMIT 1[0m
+  [1m[35mOption Load (0.4ms)[0m  SELECT `options`.* FROM `options` WHERE `options`.`level_id` = 30
+  Rendered home/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 35ms (Views: 30.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for ::1 at 2016-12-03 20:49:29 +0800
+Processing by HomeController#index as HTML
+  [1m[36mLevel Load (0.7ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 0[0m
+  [1m[35mLevel Load (0.7ms)[0m  SELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 1
+  [1m[36mLevel Load (0.5ms)[0m  [1mSELECT `levels`.* FROM `levels` WHERE `levels`.`degree` = 2[0m
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/levels/" for ::1 at 2016-12-03 20:49:39 +0800
+Processing by LevelsController#index as HTML
+  [1m[35mLevel Load (0.9ms)[0m  SELECT `levels`.* FROM `levels`
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 25[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 25
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 26[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 26
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM `options` WHERE `options`.`level_id` = 30[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `tips` WHERE `tips`.`level_id` = 30
+  Rendered levels/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 43ms (Views: 39.1ms | ActiveRecord: 3.4ms)

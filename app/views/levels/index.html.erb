@@ -27,6 +27,9 @@
                 圖片
             </th>
             <th class="bg-primary">
+                類型
+            </th>
+            <th class="bg-primary">
                 選項
             </th>
             <th class="bg-primary">
@@ -51,6 +54,9 @@
                 </td>
                 <td>
                     <img src="<%= level.image_path %>" height="100px" alt="">
+                </td>
+                <td>
+                    <%= Level.getDegreeName(level.degree) %>
                 </td>
                 <td>
                   <a href="/options/<%= level.id %>"><%= level.options.count %> 筆</a>

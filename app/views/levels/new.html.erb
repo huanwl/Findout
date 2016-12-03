@@ -30,6 +30,21 @@
                     <%= f.file_field :image_path %>
                 </td>
             </tr>
+            <tr>
+                <td class="bg-info">
+                    暴力類型
+                </td>
+                <td>
+                  <%= f.radio_button :degree, :low, :value => :low, :checked => true %>
+                  <%= f.label :degree_low, "明顯" %>
+                  &nbsp;&nbsp;&nbsp;
+                  <%= f.radio_button :degree, :mid, :value => :mid %>
+                  <%= f.label :degree_mid, "中等"%>
+                  &nbsp;&nbsp;&nbsp;
+                  <%= f.radio_button :degree, :high, :value => :high %>
+                  <%= f.label :degree_high, "隱性"%>
+                </td>
+            </tr>
         </table>
     </div>
     <br>

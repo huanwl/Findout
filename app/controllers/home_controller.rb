@@ -1,6 +1,8 @@
 class HomeController < ApplicationController
   def index
-    @levels = Level.all
+    @low_levels = Level.where(degree: 0)
+    @mid_levels = Level.where(degree: 1)
+    @high_levels = Level.where(degree: 2)
   end
 
   def new
