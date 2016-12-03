@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   root 'home#index'
   get 'home' => 'home#index'
   get 'home/new/:id' => 'home#new'
-  post 'home/create/:id' => 'home#create'
+  post 'home/create' => 'home#create'
+  get 'home/result' => 'home#result'
 
   get 'options/:id' => 'options#index'
   get 'options/new/:id' => 'options#new'

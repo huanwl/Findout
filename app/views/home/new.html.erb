@@ -1,23 +1,24 @@
 <div class="row">
-
     <div class="col-md-12 text-center">
         <h1 class="page-header">關卡 <%= "#{@no} : #{@level.name}" %></h1>
     </div>
 
     <div class="col-md-12" align="center">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3">
+          <div class="col-md-8 col-md-offset-2">
             <img class="img-responsive level-img" src="<%= @level.image_path %>">
           </div>
         </div>
         <h2><%= @level.description %></h2>
     </div>
 
-    <%= form_tag "/home/create/#{@level.id}" do %>
+    <%= form_tag "/home/create" do %>
+      <input type="hidden" name="level_id" value="<%= @level.id %>">
+      <input type="hidden" name="no" value="<%= @no %>">
       <ul>
       <% @options.each do |option| %>
         <li>
-          <input type="checkbox" id="cb<%= option.id %>" value="<%= option.id %>" />
+          <input type="checkbox" id="cb<%= option.id %>" name="options[]" value="<%= option.id %>" />
           <label for="cb<%= option.id %>">
             <h4 class="text-center"><%= option.name %></h4>
             <img src="<%= option.image_path %>">
