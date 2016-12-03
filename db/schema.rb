@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161201095127) do
+ActiveRecord::Schema.define(version: 20161203023653) do
 
   create_table "levels", force: :cascade do |t|
     t.string   "name",        limit: 255
@@ -28,12 +28,14 @@ ActiveRecord::Schema.define(version: 20161201095127) do
     t.boolean  "is_answer"
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
+    t.integer  "level_id",   limit: 4
   end
 
   create_table "tips", force: :cascade do |t|
     t.string   "name",       limit: 255
     t.datetime "created_at",             null: false
     t.datetime "updated_at",             null: false
+    t.integer  "level_id",   limit: 4
   end
 
 end
