@@ -37,8 +37,8 @@ class LevelsController < ApplicationController
   def destroy
     @level = Level.find params[:id]
 
-    Option.destroy_all(@level.id)
-    Tip.destroy_all(@level.id)
+    Option.destroy_all(level_id: @level.id)
+    Tip.destroy_all(level_id: @level.id)
 
     if @level.image_path != nil and @level.image_path != ""
       filepath = "#{Rails.root}/public" + @level.image_path
