@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'home#index'
   get 'home' => 'home#index'
-  get 'home/new' => 'home#new'
+  get 'home/new/:id' => 'home#new'
 
   get 'options/:id' => 'options#index'
   get 'options/new/:id' => 'options#new'

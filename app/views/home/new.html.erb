@@ -1,51 +1,44 @@
 
 <div class="row">
 
-    <div class="col-lg-12 text-center">
-        <h1 class="page-header">關卡一: 家庭</h1>
+    <div class="col-md-12 text-center">
+        <h1 class="page-header">關卡 <%= "#{@no} : #{@level.name}" %></h1>
     </div>
 
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300">
-            <div class="caption">
-              <h4>選項一</h4>
-            </div>
-        </a>
+    <div class="col-md-12" align="center">
+        <div class="col-md-6">
+          <img class="img-responsive level-img" src="<%= @level.image_path %>">
+        </div>
+        <div class="col-md-6">
+          <img class="img-responsive level-img" src="<%= @level.image_path %>">
+        </div>
+        <h2><%= @level.description %></h2>
     </div>
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300">
-        </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300">
-        </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300">
-        </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300">
-        </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300">
-        </a>
-    </div>
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300">
-        </a>
-    </div>
+
+    <ul>
+    <% @options.each do |option| %>
+
+    <!-- <div class="col-lg-3 col-md-4 col-xs-6 option-img">
+        <label for="cb1" class="thumbnail" href="#">
+          <div class="caption">
+            <h4 class="text-center"><%= option.name %></h4>
+          </div>
+          <img class="img-responsive" src="<%= option.image_path %>">
+        </label>
+    </div> -->
+      <li>
+        <input type="checkbox" id="cb<%= option.id %>" value="<%= option.id %>" />
+        <label for="cb<%= option.id %>">
+          <h4 class="text-center"><%= option.name %></h4>
+          <img src="<%= option.image_path %>">
+        </label>
+      </li>
+
+    <% end %>
+    </ul>
 
     <div class="col-md-12 text-center" style="margin: 50px 0">
-      <a href="#" class="btn btn-success btn-lg" style="width:100%; max-width: 500px">
+      <a href="#" class="btn btn-success btn-lg submit-btn" >
         完成送出
       </a>
     </div>

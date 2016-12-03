@@ -2,7 +2,10 @@ class HomeController < ApplicationController
   def index
     @levels = Level.all
   end
-  def new
 
+  def new
+    @no = params[:no]
+    @level = Level.find(params[:id])
+    @options = @level.options
   end
 end
