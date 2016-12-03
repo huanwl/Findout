@@ -11,10 +11,11 @@
 
     <link href="/thumbnail-gallery/css/bootstrap.css" rel="stylesheet">
     <link href="/thumbnail-gallery/css/thumbnail-gallery.css" rel="stylesheet">
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    
+    <%= javascript_include_tag 'application' %>
     <script src="/thumbnail-gallery/js/bootstrap.js"></script>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
 </head>
 
