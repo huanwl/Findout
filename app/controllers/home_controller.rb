@@ -8,4 +8,8 @@ class HomeController < ApplicationController
     @level = Level.find(params[:id])
     @options = @level.options
   end
+
+  def create
+    redirect_to action: "index"
+  end
 end
