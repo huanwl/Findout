@@ -17,7 +17,10 @@
       <div class="col-md-12 text-center">
         <a class="btn btn-default btn-lg result-btn"
            href="/">回首頁</a>
-        <a class="btn btn-primary btn-lg result-btn">下一關</a>
+        <% if @next_no > 0 %>
+          <a class="btn btn-primary btn-lg result-btn"
+             href="/home/new/<%= @next_id %>?no=<%= @next_no %>">下一關</a>
+        <% end %>
       </div>
     <% else %>
 

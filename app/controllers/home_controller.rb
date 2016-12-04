@@ -38,6 +38,20 @@ class HomeController < ApplicationController
     @level = Level.find(level_id)
     @no = params[:no]
     @is_pass = params[:is_pass]
+
+    if @is_pass == "true"
+      @next_no = @no.to_i + 1
+
+      levels = Level.order(:degree)
+      if @next_no > levels.count
+        @next_no = 0
+        @next_id = 0
+      else
+        level = levels[@next_no - 1]
+        @next_id = level.id
+      end
+    end
+
   end
 
 end
