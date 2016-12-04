@@ -1,28 +1,5 @@
-== README
+== 翻倒（Find Out）你的刻板印象！
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+一款專為性/別平等教育所設計的互動式遊戲！提供教師及宣導人員有趣的性/別教育圖像化教材。由教師帶領學生一起闖關，學生分組後連上平台進行答題。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+每題都必須找出所有與題目相對應的圖片選項才能進入下一關。答錯的時候可由教師進行提示或是相關的議題討論，希望藉由情境式的題目帶出日常生活中不易察覺的性/別暴力，讓使用者在遊戲的過程中不僅可以"Find Out"自己既有的刻板印象，也能開啟對話聽見更多元的聲音。
