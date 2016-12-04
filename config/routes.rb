@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get 'tips/:id' => 'tips#index'
   get 'tips/new/:id' => 'tips#new'
 
+  get 'chart/' => 'chart#index'
+
   resources :levels, :options, :tips
 
   # The priority is based upon order of creation: first created -> highest priority.
