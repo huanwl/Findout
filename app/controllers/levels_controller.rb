@@ -10,12 +10,8 @@ class LevelsController < ApplicationController
     @level = Level.new
   end
 
-  def edit
-  end
-
   def create
-    @level = Level.new(params.require(:level)
-                             .permit(:name, :description, :image_path, :degree))
+    @level = Level.new(level_params)
 
     image = params[:level][:image_path]
     if image != nil
@@ -34,6 +30,20 @@ class LevelsController < ApplicationController
     end
   end
 
+  def edit
+    @level = Level.find(params[:id])
+  end
+
+  def update
+    @level = Level.find(params[:id])
+
+    if @level.update_attributes(level_params)
+      redirect_to action: 'index'
+    else
+      render :edit
+    end
+  end
+
   def destroy
     @level = Level.find params[:id]
 
@@ -48,4 +58,12 @@ class LevelsController < ApplicationController
     @level.destroy
     redirect_to action: "index"
   end
+
+  private
+
+    def level_params
+      params.require(:level)
+            .permit(:name, :description, :image_path, :degree)
+    end
+
 end

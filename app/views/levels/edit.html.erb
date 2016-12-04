@@ -1,0 +1,58 @@
+
+<div class="row text-center">
+    <h1 class="page-header">新增關卡</h1>
+</div>
+
+<%= form_for @level do |f| %>
+    <div class="row">
+        <table class="table table-bordered form-table">
+            <tr>
+                <td class="bg-info">
+                    關卡名稱
+                </td>
+                <td>
+                    <%= f.text_field :name, :class => "form-control" %>
+                </td>
+            </tr>
+            <tr>
+                <td class="bg-info">
+                    關卡說明
+                </td>
+                <td>
+                    <%= f.text_field :description, :class => "form-control" %>
+                </td>
+            </tr>
+            <tr>
+                <td class="bg-info">
+                    關卡圖片
+                </td>
+                <td>
+                    <%= f.file_field :image_path %>
+                </td>
+            </tr>
+            <tr>
+                <td class="bg-info">
+                    暴力類型
+                </td>
+                <td>
+                  <%= f.radio_button :degree, :low, :value => :low, :checked => true %>
+                  <%= f.label :degree_low, "明顯" %>
+                  &nbsp;&nbsp;&nbsp;
+                  <%= f.radio_button :degree, :mid, :value => :mid %>
+                  <%= f.label :degree_mid, "中等"%>
+                  &nbsp;&nbsp;&nbsp;
+                  <%= f.radio_button :degree, :high, :value => :high %>
+                  <%= f.label :degree_high, "隱性"%>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="row" align="center">
+         <%= f.submit "送出",
+         :class => "btn btn-success btn-create",
+         :style => "max-width: 200px" %>
+
+        <a class="btn btn-default btn-create" href="/levels">取消</a>
+    </div>
+<% end %>
